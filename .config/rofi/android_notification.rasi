@@ -5,29 +5,29 @@
  *******************************************************************************/
 
 * {
-    font: "Terminus 12";
-    selected-normal-foreground:  rgba ( 0, 255, 255, 100 % );
-    foreground:                  rgba ( 0, 193, 193, 100 % );
+    font: "Liberation Sans 12";
+    selected-normal-foreground:  rgba ( 255, 255, 255, 100 % );
+    foreground:                  rgba ( 193, 193, 193, 100 % );
     normal-foreground:           @foreground;
-    alternate-normal-background: rgba ( 10, 10, 10, 100 % );
+    alternate-normal-background: rgba ( 40, 40, 40, 100 % );
     red:                         rgba ( 220, 50, 47, 100 % );
     selected-urgent-foreground:  rgba ( 255, 24, 68, 100 % );
     blue:                        rgba ( 38, 139, 210, 100 % );
     urgent-foreground:           rgba ( 255, 24, 68, 100 % );
     alternate-urgent-background: rgba ( 39, 50, 56, 100 % );
-    active-foreground:           rgba ( 0, 255, 255, 100 % );
+    active-foreground:           rgba ( 255, 255, 255, 100 % );
     lightbg:                     rgba ( 238, 232, 213, 100 % );
-    selected-active-foreground:  rgba ( 0, 255, 255, 100 % );
+    selected-active-foreground:  rgba ( 255, 255, 255, 100 % );
     alternate-active-background: rgba ( 40, 40, 40, 100 % );
-    background:                  rgba ( 0, 0, 0, 100 % );
+    background:                  rgba ( 40, 40, 40, 100 % );
     bordercolor:                 rgba ( 50, 50, 50, 100 % );
     alternate-normal-foreground: @foreground;
-    normal-background:           rgba ( 10, 10, 10, 100 % );
+    normal-background:           rgba ( 40, 40, 40, 100 % );
     lightfg:                     rgba ( 88, 104, 117, 100 % );
     selected-normal-background:  rgba ( 20, 20, 20, 100 % );
     border-color:                @foreground;
     spacing:                     2;
-    separatorcolor:              rgba ( 0, 100, 100, 100 % );
+    separatorcolor:              rgba ( 100, 100, 100, 100 % );
     urgent-background:           rgba ( 39, 50, 56, 100 % );
     selected-urgent-background:  rgba ( 57, 66, 73, 100 % );
     alternate-urgent-foreground: @urgent-foreground;
