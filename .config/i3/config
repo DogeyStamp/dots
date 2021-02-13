@@ -57,14 +57,8 @@ bindsym Mod4+p exec "notify-send Dunst `dunstctl is-paused` && sleep 0 && dunstc
 #Backlight controls
 bindsym $mod+KP_Add exec xbacklight -inc 1
 bindsym $mod+KP_Subtract exec xbacklight -dec 1
-#Audio output controls
-bindsym $mod+F5 exec /home/dogeystamp/Scripts/set_audio 0
-bindsym $mod+F6 exec /home/dogeystamp/Scripts/set_audio 3
-bindsym $mod+F7 exec /home/dogeystamp/Scripts/set_audio 4
-bindsym $mod+F8 exec /home/dogeystamp/Scripts/set_audio 5
 bindsym $mod+Shift+p exec passmenu
 bindsym $mod+m exec i3-sensible-terminal -e mutt
-bindsym $mod+b exec python3 /home/dogeystamp/Scripts/namer.py | xsel -ib
 bindsym $mod+z exec zathura
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -247,7 +241,7 @@ bindsym $mod+r mode "resize"
 #exec xrandr --output eDP1 --auto --right-of DP2
 exec_always ~/.config/polybar/launch.sh
 exec dunst
-exec_always feh --bg-fill Pictures/dogemin*
+exec_always feh --bg-fill wallpapers/dogemin*
 exec_always picom --experimental-backends --backend glx &
 
 # Start i3bar to display a workspace bar (plus the system information i3status
