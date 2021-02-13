@@ -241,7 +241,7 @@ bindsym $mod+r mode "resize"
 #exec xrandr --output eDP1 --auto --right-of DP2
 exec_always ~/.config/polybar/launch.sh
 exec dunst
-exec_always feh --bg-fill wallpapers/dogemin*
+exec_always feh --bg-fill wallpapers/dogemin5.png wallpapers/dogemin2.png
 exec_always picom --experimental-backends --backend glx &
 
 # Start i3bar to display a workspace bar (plus the system information i3status
