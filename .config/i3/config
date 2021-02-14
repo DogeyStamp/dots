@@ -83,7 +83,7 @@ bindsym $mod+Shift+b exec chromium
 bindsym $mod+Shift+q kill
 
 # class                 border  bground text    indicator child_border
-client.focused          #00FFFF #000000 #00FFFF #00DDDD   #285577
+client.focused          #00FFFF #000000 #00FFFF #406789   #285577
 client.focused_inactive #333333 #000000 #00BBBB #484E50   #5F676A
 client.unfocused        #333333 #000000 #005555 #292D2E   #222222
 client.urgent           #2F343A #000000 #FF0000 #900000   #900000
