@@ -13,7 +13,7 @@ for_window [class=".*"] border pixel 2
 gaps outer -10
 gaps inner 30
 
-set $mod Mod4
+set $mod Mod1
 exec "xrandr --output eDP1 --mode 1920x1080 --pos 1920x297 --rotate normal --output DP2 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP2 --off --output HDMI1 --off --output HDMI2 --off --output VIRTUAL1 --off"
 bindsym $mod+u exec "xrandr --auto --output DP2 --off"
 bindsym $mod+i exec "xrandr --output eDP1 --mode 1920x1080 --pos 1920x297 --rotate normal --output DP2 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output DP2 --off --output HDMI1 --off --output HDMI2 --off --output VIRTUAL1 --off"
