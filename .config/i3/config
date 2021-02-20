@@ -58,7 +58,6 @@ bindsym Mod4+p exec "notify-send Dunst `dunstctl is-paused` && sleep 0 && dunstc
 bindsym $mod+KP_Add exec xbacklight -inc 1
 bindsym $mod+KP_Subtract exec xbacklight -dec 1
 bindsym $mod+Shift+p exec passmenu
-bindsym $mod+m exec i3-sensible-terminal -e mutt
 bindsym $mod+z exec zathura
 
 # Use Mouse+$mod to drag floating windows to their wanted position
