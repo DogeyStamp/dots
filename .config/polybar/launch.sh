@@ -14,7 +14,8 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 polybar top-main -c ~/.config/polybar/config-top.ini &
 #polybar bottom-main -c ~/.config/polybar/config-bottom.ini &
-if [[ $(xrandr | grep "DP2 connected" | grep -Eiv "eDP1") ]]; then
+if [[ $(xrandr | grep "DP1 connected" | grep -Eiv "eDP1") ]]; then
 #   polybar bottom-ext -c ~/.config/polybar/config-bottom.ini &
     polybar top-ext -c ~/.config/polybar/config-top.ini &
+    polybar top-ext2 -c ~/.config/polybar/config-top.ini &
 fi
