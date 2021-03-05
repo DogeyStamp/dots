@@ -54,7 +54,7 @@ bindsym Mod4+p exec "notify-send Dunst `dunstctl is-paused` && sleep 0 && dunstc
 #Backlight controls
 bindsym $mod+KP_Add exec xbacklight -inc 1
 bindsym $mod+KP_Subtract exec xbacklight -dec 1
-bindsym $mod+Shift+p exec passmenu
+bindsym $mod+Shift+p exec zsh -c passmenu
 bindsym $mod+z exec zathura
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -236,7 +236,7 @@ bindsym $mod+r mode "resize"
 #exec xrandr --output eDP1 --auto --right-of DP2
 exec_always ~/.config/polybar/launch.sh
 exec dunst
-exec_always feh --bg-fill wallpapers/dogemin2d.png wallpapers/dogemin2d.png wallpapers/dual.png
+exec_always feh --bg-fill wallpapers/dogemin2d.png wallpapers/dogemin2d.png wallpapers/dual.png --no-fehbg
 exec_always picom --experimental-backends --backend glx &
 
 # Start i3bar to display a workspace bar (plus the system information i3status
